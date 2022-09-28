@@ -1,0 +1,88 @@
+
+
+body {max-width: 90%; 
+	 margin: auto;
+	 background-color: #f8f1ca ; 
+	 background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/The_Hubble_eXtreme_Deep_Field.jpg/1920px-The_Hubble_eXtreme_Deep_Field.jpg);
+	 background-repeat: no-repeat;
+	 background-size: cover; 
+	 background-position: bottom right; 
+	font-family: 'Open Sans', sans-serif;}
+
+h2,ul,table {color: whitesmoke;}
+header h1 {background-color: yellow; 
+	        position: fixed; top: 0; 
+	        padding: 10px; left: 25%; 
+	        right: 25%; 
+	        text-align: center
+	     }
+header blockquote {margin-top: 100px;}
+
+
+#intro {display: flex; justify-content: space-between;flex-direction: row-reverse; }
+#list {margin-left: 50px;}
+
+#paragraphe1 {display: flex; justify-content: space-between; flex-direction: row-reverse;
+text-align: justify;}
+
+img {width: 400px}
+
+
+
+p{letter-spacing: 1px;
+  font-size: 16px;
+  color:   whitesmoke;
+justify-content: justify;}
+
+a {color: #074730; 
+   text-decoration: none;}
+
+a:hover{color: yellow;}
+
+a:visited{color:purple;}
+
+blockquote, q{max-width: 50%; 
+	          margin: auto; 
+	          text-align: center;
+	          font-size: 160%;
+	          background-color:  #e4e6e5 ; 
+	          border-left: 3px solid firebrick; 
+	          padding-left: 30px; 
+	          margin-top: 80px; 
+	          margin-bottom: 80px;
+	          font-style: italic; 
+	          color: black}
+
+q {display: block;}
+.villagers {border-left:3px solid blueviolet ;}
+
+.farmer {border-left:3px solid greenyellow ;}
+
+.bad, .good{text-transform: capitalize;}
+
+.bad {color: red;}
+
+.good{color: green}
+
+li{background-repeat: no-repeat;
+   background-size: contain;
+   padding-left: 30px; }
+
+li:first-child{background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09/main/1.The-Field/03-Front-end-101/bien.png?token=GHSAT0AAAAAABZFBGHSR5BFOCLUNZVRDCNIYZRYMDQ);}
+li:nth-child(2){background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09/main/1.The-Field/03-Front-end-101/mal.png?token=GHSAT0AAAAAABZFBGHS4JHDCNKVZLNVIK2WYZRYVDA);}
+li:nth-last-of-type(2){background-image:url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09/main/1.The-Field/03-Front-end-101/chat.png?token=GHSAT0AAAAAABZFBGHTRVQXQS3JWRQO2YM4YZRYWOA) ;}
+
+p:only-of-type {font-weight:bold ;}
+
+
+table {border: solid 1px white;}
+td {border: solid 1px white;}
+
+tr:first-child{background-color: grey;}
+tr:nth-child(2){background-color: pink;}
+tr:nth-child(3){background-color: grey;}
+tr:nth-child(4){background-color: pink;}
+tr:nth-child(5){background-color: grey;}
+
+footer{margin-bottom: 50px;}
+
